@@ -2,21 +2,92 @@
 <head>
     <title>Logan Cousineau</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/fav.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="logo-container">
-        <div id="container">
-        <div id="logo"></div>
-        <h3 style="font-weight: 400;margin-bottom: 32px">Elevating brands through <i style="text-decoration: underline;text-decoration-color:#00B798;text-decoration-thickness:2px;">thoughtful design.</i> </h3>
-        <div style="display: flex">
-            <a href="logan_cousineau_portfolio_2026.pdf" download="logan_cousineau_portfolio_2026.pdf" class="download">Portfolio</a>
-            <a href="logan_cousineau_resume.pdf" style="background:#232122;margin-left:16px" download="logan_cousineau_resume_2026.pdf" class="download">Resume</a>
-        </div>
-        </div>
+    <div class="off-screen-menu">
+        <ul>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
-    
+    <div style="z-index:100;width:100vw;padding:32px;box-sizing: border-box; display: flex;position:fixed;display:flex;justify-content: center">
+    <div class="header-container">
+        <a href="index.html" style="width:100%;"><div id="logo"></div></a>
+        <div id="navItems" style="display: flex; gap:16px;">
+            <a href="index.html" class="navBar">Portfolio</a>
+            <a href="about.html" class="navBar">About</a>
+            <a href="contact.html" class="navBar cta" style="color:white">Contact</a>
+        </div>
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+    </div>
+    <div class="pageBody">
+        <h1 id="title">Elevating brands through <i style="text-decoration: underline;text-decoration-color:#00B798;text-decoration-thickness:6px;">thoughtful design.</i> </h1>
+        <div class="projectGrid">
+            <a href="lifelearn.html">
+            <div class="projectCard">
+                <div class="projectCardHero" id="LifeLearn"></div>
+            <h3>LifeLearn</h3>
+            <h2>Helped LifeLearn reach veterinarians across North America.</h2>
+            </div>
+            </a>
+            <a href="prosites.html">
+            <div class="projectCard extraMargin">
+                <div class="projectCardHero" id="ProSites">
+                </div>
+            <h3>ProSites</h3>
+            <h2>Elevated ProSites brand equity through targeting campaigns.</h2>
+            </div></a>
+            <a href="cpass.html">
+            <div class="projectCard">
+                <div class="projectCardHero" id="CPASS">
+                </div>
+            <h3>CPA Site Solutions</h3>
+            <h2>Delivered high-performing digital campaign assets across channels.</h2>
+            </div></a>
+            <a href="serenease.html">
+            <div class="projectCard extraMargin">
+                <div class="projectCardHero" id="SerenEase">
+                </div>
+            <h3>SerenEase</h3>
+            <h2>Branded, designed, and launched a series of pet pheromone pruducts.</h2>
+            </div></a>
+            <a href="cornerdelights.html">
+            <div class="projectCard">
+                <div class="projectCardHero" id="CornerDelights">
+                </div>
+            <h3>Corner Delights</h3>
+            <h2>Brought sunshine to East View Park.</h2>
+            </div></a>
+            <!--
+            <a href="proconcepts.html">
+            <div class="projectCard extraMargin">
+                <div class="projectCardHero" id="ProConcepts">
+                </div>
+            <h3>ProConcepts</h3>
+            <h2>Created branded material to be used by suppliers.</h2>
+            </div></a>
+            <a href="taski.html">
+            <div class="projectCard">
+                <div class="projectCardHero" id="Taski">
+                </div>
+            <h3>Taski</h3>
+            <h2>Designed an app to help kids with their daily tasks.</h2>
+            </div></a>-->
+        </div>
+        
+    </div>
+    <script src="code.js" type="text/javascript"></script>
 </body>
 </html>
