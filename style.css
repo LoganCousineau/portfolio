@@ -159,6 +159,18 @@ h4{
     border-radius: 16px;
 }
 
+.grid4{
+    display:grid;
+    width:100%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 16px;
+    margin-bottom: 112px;
+}
+.grid4 img{
+    width:100%;
+    border-radius: 16px;
+}
+
 
 p{
   padding-right:64px;  
@@ -392,6 +404,16 @@ h5{
     .grid3 img{
         border-radius: 8px;
     }
+    .grid4{
+        grid-template-columns: auto auto;
+        grid-gap: 12px;
+    }
+    .grid4 img{
+        border-radius: 8px;
+    }
+    .grid4 div{
+        grid-area: 100%;
+    }
     #title{
         font-size:2.2em;
         max-width:100vw;
@@ -420,6 +442,9 @@ h5{
 
     .mobile1{
         grid-template-columns: auto;
+    }
+    .mobile3{
+        grid-template-columns: auto auto auto;
     }
     .projectCardHero{
         height:260px;
