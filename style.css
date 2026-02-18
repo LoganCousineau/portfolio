@@ -187,7 +187,9 @@ h3{
     color: #00B798
     
 }
-
+#WaddupDog{
+    background-image: url(images/WaddupDog/waddupDogStorefront.png)
+}
 #LifeLearn{
     background-image: url(images/LifeLearn/LifeLearn-Card.png)
 }
@@ -199,6 +201,9 @@ h3{
 }
 #CPASS{
     background-image: url(images/CPASS/CPASS-Card.png)
+}
+#HillSons{
+    background-image: url(images/HillSons/HillSons-Card.png)
 }
 #Taski{
     background-image: url(images/Taski/taski_card.png);
